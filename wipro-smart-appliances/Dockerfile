@@ -4,4 +4,4 @@ FROM openjdk:8-jre-alpine3.9
 COPY target/wipro-smart-appliances-1.0.0.jar /wipro-smart-appliances-1.0.0.jar
  
 # set the startup command to execute the jar
-CMD ["java", "-jar", "/wipro-smart-appliances-1.0.0.jar"]
+CMD ["java", "-jar", "wipro-smart-appliances-1.0.0.jar"]
